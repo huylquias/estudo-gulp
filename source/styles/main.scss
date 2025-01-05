@@ -1,0 +1,13 @@
+@use 'variaveis'; 
+
+.bg{ 
+    background-color: variaveis.$corPrincipal;
+};
+
+.text-color { 
+    color: variaveis.$corTexto;
+}
+
+.sub-text-color {
+    color: variaveis.$corsubTexto;
+}
