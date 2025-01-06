@@ -39,5 +39,4 @@ exports.default = function(){
 //  .pipe(sass()) faz o encadeamento de função, sem isso não seria possível chamar uma outra função após o gulp.src 
 //  .pipe(gulp.dest) manda o arquivo para a pasta designada
 //  .pipe(sourcemaps.init()) irá iniciar o sourcempas que adiciona mapas de origem para facilitar a depuração do código.
-//  Para iniciar o projeto de forma correta, deve se utilizar o função WATCH. 
-//  A VERSÃO ATUAL DO GULP @5.0.0 NAO SUPORTA O IMAGEMIN,  npm install --save-dev gulp@4.0.2. USE ESSE! E A VERSÃO CORRETA DO IMAGEMIN PARA FUNCIONAR AQUI É npm install --save-dev gulp-imagemin@7.1.0. QUE DOR DE CABEÇA DO CAO. 
+//  A VERSÃO ATUAL DO GULP @5.0.0 NAO SUPORTA O IMAGEMIN,  npm install --save-dev gulp@4.0.2. USE ESSE! E A VERSÃO CORRETA DO IMAGEMIN PARA FUNCIONAR AQUI É npm install --save-dev gulp-imagemin@7.1.0.
